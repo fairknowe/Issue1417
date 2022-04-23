@@ -8,8 +8,11 @@
 
 **Required:**
 1. An ngrok.yml file at the repository root, containing:
-> authtoken: [your ngrok auth token]
-> web_addr: 0.0.0.0:4041
+
+> - authtoken: [your ngrok auth token]
+>
+> - web_addr: 0.0.0.0:4041
+
 2. A Shopify Partner account and development store. See [here](https://shopify.dev/apps/getting-started/create).
 
 **Instructions:**
