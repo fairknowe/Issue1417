@@ -2,16 +2,17 @@
 ### Demonstration of Shopify app install issue using Rails and the shopify_app API
 #### See [https://github.com/Shopify/shopify_app/issues/1417](https://github.com/Shopify/shopify_app/issues/1417)
 
-**This repository provides instructions on building a Docker container and Shopify public embedded app, named "embed", to illustrate a browser-related issue with the app install.**
+**This repository provides instructions on building a Docker container and a Shopify public embedded app, named "embed", to illustrate a browser-related issue with the app install.**
 
 *This demonstration was developed using Docker Desktop Version 4.7.1 running on MacOS Version 10.15.7. Container software versions are below.*
 
 **Required:**
+
 1. An ngrok.yml file at the repository root, containing:
 
-> - authtoken: [your ngrok auth token]
+> authtoken: [your ngrok auth token]
 >
-> - web_addr: 0.0.0.0:4041
+> web_addr: 0.0.0.0:4041
 
 2. A Shopify Partner account and development store. See [here](https://shopify.dev/apps/getting-started/create).
 
@@ -39,7 +40,7 @@ At the container bash prompt:
 
 **Container software**
 - `Debian 11 (bullseye)`
-- `ruby 3.1.2p20`
+- `Ruby 3.1.2p20`
 - `Rails 7.0.2.3`
 - `Node.js v17.9.0`
 - `shopify-cli 2.15.6`
